@@ -784,10 +784,6 @@ class PhilipsAC1214(PhilipsGenericFan):
             return
 
 
-class PhilipsAC2210(PhilipsAC32xx):
-    """AC2210."""
-
-
 class PhilipsAC2729(PhilipsGenericFan):
     """AC2729."""
 
@@ -1144,6 +1140,10 @@ class PhilipsAC32xx(PhilipsNew2GenericFan):
         PhilipsApi.NEW2_LAMP_MODE,
         PhilipsApi.NEW2_PREFERRED_INDEX,
     ]
+
+
+class PhilipsAC2210(PhilipsAC32xx):
+    """AC2210."""
 
 
 class PhilipsAC3210(PhilipsAC32xx):
