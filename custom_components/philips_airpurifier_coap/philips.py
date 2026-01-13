@@ -784,6 +784,10 @@ class PhilipsAC1214(PhilipsGenericFan):
             return
 
 
+class PhilipsAC2210(PhilipsAC32xx):
+    """AC2210."""
+
+
 class PhilipsAC2729(PhilipsGenericFan):
     """AC2729."""
 
@@ -2079,6 +2083,7 @@ model_to_class = {
     FanModel.AC0951: PhilipsAC0951,
     FanModel.AC1214: PhilipsAC1214,
     FanModel.AC1715: PhilipsAC1715,
+    FanModel.AC2210: PhilipsAC2210,
     FanModel.AC2729: PhilipsAC2729,
     FanModel.AC2889: PhilipsAC2889,
     FanModel.AC2936: PhilipsAC2936,
