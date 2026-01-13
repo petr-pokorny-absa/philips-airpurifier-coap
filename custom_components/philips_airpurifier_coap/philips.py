@@ -792,10 +792,6 @@ class PhilipsAC221010(PhilipsNew2GenericFan):
             PhilipsApi.NEW2_POWER: 1,
             PhilipsApi.NEW2_MODE_B: 0,
         },
-        PresetMode.SLEEP: {
-            PhilipsApi.NEW2_POWER: 1,
-            PhilipsApi.NEW2_MODE_B: 17,
-        },
         PresetMode.MEDIUM: {
             PhilipsApi.NEW2_POWER: 1,
             PhilipsApi.NEW2_MODE_B: 19,
@@ -803,6 +799,10 @@ class PhilipsAC221010(PhilipsNew2GenericFan):
         PresetMode.TURBO: {
             PhilipsApi.NEW2_POWER: 1,
             PhilipsApi.NEW2_MODE_B: 18,
+        },
+        PresetMode.SLEEP: {
+            PhilipsApi.NEW2_POWER: 1,
+            PhilipsApi.NEW2_MODE_B: 17,
         },
     }
     AVAILABLE_SPEEDS = {
